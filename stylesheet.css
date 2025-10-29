@@ -1,0 +1,126 @@
+.woman {
+    object-fit: contain;
+    float: left;
+    width: 80px;
+}
+
+header {
+    height: 15%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navHover {
+    text-decoration: none;
+    padding: 4px;
+}
+
+.navHover:hover {
+    background-color: rgb(235, 177, 208);
+}
+
+
+.daBottom {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+@media (min-width: 600px) and (max-width:1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+}
+
+.hero {
+    padding-top: 250px;
+    text-align: center;
+    background-image: url("https://shop.multilingualbooks.com/cdn/shop/articles/aslfingerspelling_250x.gif?v=1525998843");
+    min-height: 200px;
+
+}
+
+.adC {
+    border-style: solid;
+
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 2px 2px px rgb(0, 0, 0);
+    border-width: 5px;
+    height: 90px;
+    text-align: center;
+    width: 100%;
+}
+
+.item {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serVices {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    background-color: rgba(252, 248, 248, 0.168);
+}
+
+.button {
+    background-color: rgb(52, 49, 49);
+    font-size: 30px;
+    color: white;
+    width: 500px;
+}
+
+.aboutUs {
+    padding-bottom: 20px;
+}
+
+.item1 {
+
+    background-image: url("https://adaptaramps.com.au/wp-content/uploads/2021/10/building-wheelchair-ramps.jpg");
+    opacity: 70%;
+    font-size: 40px;
+    color: rgb(255, 255, 255)
+}
+
+.item2 {
+    background-image: url("https://usbathstore.com/cdn/shop/files/Evekare-19-Stainless-Steel-Concealed-Mount-ShowerBath-Grab-Bar-With-Integrated-Glass-Shelf-in-Matte-Black-7.jpg?v=1688621879&width=1946");
+    object-fit: contain;
+    opacity: 50%;
+    font-size: 40px;
+}
+
+
+.item3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/%281%29Wheelchair.jpg/2560px-%281%29Wheelchair.jpg");
+    opacity: 50%;
+    font-size: 40px;
+
+}
+
+.item4 {
+    background-image: url("data:image/jpeg;base64,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") alt="Picture of hearing aids";
+    opacity: 90%;
+    font-size: 40px;
+
+}
